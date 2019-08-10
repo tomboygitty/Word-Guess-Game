@@ -1,0 +1,25 @@
+h1 {
+    color:maroon;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    size: 100px;
+}
+
+body {
+    background-color:black;
+    color:white;
+}
+
+.filler {
+    height:100px;
+}
+
+.box {
+    border-style:dotted;
+    border-color: white;
+    height: 400px;
+}
+
+.answer {
+    padding-bottom: 20px;
+    font-size: 25px;
+}
