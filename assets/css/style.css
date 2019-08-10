@@ -1,12 +1,12 @@
 h1 {
     color:maroon;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     size: 100px;
 }
 
 body {
     background-color:black;
     color:white;
+    font-family: 'Carrois Gothic SC', sans-serif;
 }
 
 .filler {
@@ -16,10 +16,11 @@ body {
 .box {
     border-style:dotted;
     border-color: white;
-    height: 400px;
+    height: 450px;
 }
 
 .answer {
     padding-bottom: 20px;
     font-size: 25px;
 }
+
