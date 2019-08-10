@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en-us">
+    <head>
+        <meta charset="UTF-8">
+        <title>Word Guess Game</title>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+        <link rel="stylesheet" href ="assets/css/style.css">
+        <link href="https://fonts.googleapis.com/css?family=Carrois+Gothic+SC&display=swap" rel="stylesheet"> 
+    </head>
+
+    <body>
+        <h1 align="center" class="">
+            TWIN PEAKS HANGMAN
+        </h1>
+        <div class="container">
+            <!-- <div class="row filler"></div> -->
+            <div class="row">
+                <div class="col answer" align="center">ANSWER TEXT</div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-2"></div>
+                    <div class="col-lg-8">
+                        <div class="row">
+                            <div class="col box">
+                                <div class="image" align="center"></div>
+                            </div>
+                            <div class="col box">
+                                <div align="center">
+                                    <br>Press any key to get started!<br>
+                                </div>
+                                <div align="center">
+                                    <br>Game Wins<br>
+                                </div>
+                                <div id="gamewins" align="center">
+                                    0<br>
+                                </div>
+                                <div align="center">
+                                    <br>Current Word<br>
+                                </div>
+                                <div id="currentword" align="center">
+                                    <br>WORD<br>
+                                </div>
+                                <div align="center">
+                                    <br>Number of guesses remaining<br>
+                                </div>
+                                <div id="guessesremain" align="center">
+                                    <br>GUESSES REMAINING<br>
+                                </div>
+                                <div align="center">
+                                    <br>Letters already guessed<br>
+                                </div>
+                                <div id="lettersguessed" align="center">
+                                    <br>LETTERS GUESSED<br>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-2"></div>
+                </div>
+            </div>
+        </div>
+
+        <script src="assets/javascript/game.js"></script>
+
+    </body>
+</html>
